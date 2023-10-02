@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="shortcut icon" href="./src//imagens/saturno.png" type="image/x-icon">
+
+    <title>Universo</title>
+</head>
+
+<body>
+    <main class="planetas">
+        <div class="planeta" id="paguniverso">
+            <img class="imagem" src="./src/imagens/galaxia.jpg" width="100%" height="100%" alt="galaxia">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-planeta">Galaxia</h2>
+                <p class="descricao ">Galáxias são sistemas estelares maciços compostos por bilhões 
+                    ou trilhões de estrelas, gás, poeira e outros objetos celestes, todos gravitacionalmente 
+                    interligados. </p>
+            </div>
+        </div>
+
+        <div class="planeta" id="pagsol">
+            <img class="imagem" src="./src/imagens/sol.jpg" width="100%" height="100%" alt="galaxia">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-planeta">Sol</h2>
+                <p class="descricao">O Sol, nossa estrela central, brilha intensamente no espaço, fornecendo luz e calor à Terra. Com cerca de 139 vezes o diâmetro da Terra, sua gravidade mantém nosso sistema solar unido, influenciando os movimentos de planetas e asteroides ao seu redor.</p>
+            </div>
+        </div>
+
+        <div class="planeta selecionado" id="pagterra">
+            <img class="imagem" src="./src/imagens/terra.jpg" width="100%" height="100%" alt="galaxia">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-planeta">Terra</h2>
+                <p class="descricao">A Terra, nosso lar, é um planeta diversificado e único, com uma atmosfera vital que suporta vida. Com aproximadamente 12.742 quilômetros de diâmetro,
+                     abriga uma rica biodiversidade, paisagens variadas e uma história geológica fascinante.</p>
+            </div>
+        </div>
+
+        <div class="planeta" id="paglua">
+            <img class="imagem" src="./src/imagens/lua2.jpg" width="100%" height="100%" alt="galaxia">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-planeta">Lua</h2>
+                <p class="descricao">A Lua, satélite natural da Terra, orbita nosso planeta a uma distância média de 384.400 quilômetros. Com 139 vezes menos massa que a Terra,
+                     ela influencia as marés e desempenha um papel importante na estabilidade do eixo da Terra.</p>
+            </div>
+        </div>
+
+        <div class="planeta" id="pagsaturno">
+            <img class="imagem" src="./src/imagens/saturnoimg.jpg" width="100%" height="100%" alt="galaxia">
+            <div class="conteudo">
+                <i class="logo"></i>
+                <h2 class="nome-planeta">Saturno</h2>
+                <p class="descricao">Saturno, conhecido por seus deslumbrantes anéis,
+                     é o sexto planeta a partir do Sol. Com um diâmetro de cerca de 139.822 quilômetros,
+                      este gigante gasoso possui inúmeras luas e é estudado por suas características únicas e mistério cósmico.</p>
+            </div>
+        </div>
+
+    </main>
+    <ul class="botoes">
+        <li>
+
+            <button class="botao" id="universo">
+                <img src="./src/imagens/universo.png" width="60%" alt="png universo">
+            </button>
+        </li>
+       
+        <li>
+            <button class="botao" id="sol">
+                <img src="./src/imagens/sol (1).png" width="60%" alt="png sol">
+            </button>
+        </li>
+        <li>
+            <button class="botao selecionado" id="terra">
+                <img src="./src/imagens/planeta-terra.png" width="60%" alt="png terra">
+            </button>
+        </li>
+         <li>
+            <button class="botao" id="lua">
+                <img src="./src/imagens/lua-ico.png" width="60%" alt="png lua">
+            </button>
+        </li>
+        <li>
+            <button class="botao" id="saturno">
+                <img src="./src/imagens/saturno.png" width="60%" alt="png saturno">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
